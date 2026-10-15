@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=PhysikQuiz
+Comment=Physics quiz in the style of QuizDuel
+Comment[de]=Physik-Quiz im Stil von Quizduell
+Icon=harbour-physikquiz
+Exec=harbour-physikquiz
+Type=Application
+Categories=Game;Education;
+X-Sailfish-ApplicationType=Silica
+
+[X-Sailjail]
+Permissions=Internet;Bluetooth
+OrganizationName=org.smatkovi
+ApplicationName=harbour-physikquiz
+# Bluetooth needs AF_BLUETOOTH sockets, which Sailjail's seccomp filter does
+# not allow for any permission (see harbour-snapszer). The identity above
+# stays as it is: the settings path depends on it.
+Sandboxing=Disabled

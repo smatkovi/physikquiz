@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PhysikQuiz
+Comment=Physics quiz in the style of QuizDuel
+Comment[de]=Physik-Quiz im Stil von Quizduell
+Exec=physikquiz
+Icon=physikquiz
+Categories=Game;Education;
