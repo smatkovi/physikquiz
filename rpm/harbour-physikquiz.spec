@@ -1,5 +1,5 @@
 Name: harbour-physikquiz
-Version: 0.1.0
+Version: 0.1.1
 Release: 1
 Summary: Physik-Quiz im Stil von Quizduell
 License: Proprietary (private use)
@@ -43,6 +43,10 @@ make install DESTDIR=%{buildroot}
 /usr/share/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Thu Oct 15 2026 smatkovi - 0.1.1-1
+- MeeGo: pictures of picture questions were missing (question text took all
+  the room); same catalogue as 0.1.0
+
 * Thu Oct 15 2026 smatkovi - 0.1.0-1
 - First version: physics questions from eight Austrian school books (grades 6-12),
   German and English, built on BioQuiz 0.4.0
